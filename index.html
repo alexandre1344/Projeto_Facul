@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't Panic - Loja Geek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Don't Panic</h1>
+        <p>Bem-vindo à loja geek inspirada em O Guia do Mochileiro das Galáxias!</p>
+    </header>
+
+    <main>
+        <section id="products">
+            <!-- Produtos são listados aqui -->
+            <div class="product" data-id="1">
+                <h2>Produto 1</h2>
+                <p>Descrição do produto 1</p>
+                <button onclick="showDetails(1)">Ver Detalhes</button>
+            </div>
+            <!-- Repetir a estrutura acima para cada produto -->
+        </section>
+
+        <section id="product-details">
+            <!-- Área para detalhes do produto selecionado -->
+            <h3>Detalhes do Produto</h3>
+            <p id="details"></p>
+            <button onclick="addToCart()">Adicionar ao Carrinho</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
